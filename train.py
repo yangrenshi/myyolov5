@@ -457,7 +457,7 @@ def train(hyp, opt, device, tb_writer=None):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--weights', type=str, default='./weights/last_C3.pt', help='initial weights path')
+    parser.add_argument('--weights', type=str, default='runs/train/exp/weights/last_C3.pt', help='initial weights path')
     parser.add_argument('--cfg', type=str, default='models/drug.yaml', help='model.yaml path')#训练模型的的参数
     parser.add_argument('--data', type=str, default='data/voc.yaml', help='data.yaml path')#指定数据集，包括路径
     parser.add_argument('--hyp', type=str, default='data/hyp.scratch.yaml', help='hyperparameters path')#超参数
