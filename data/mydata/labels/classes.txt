@@ -1,0 +1,12 @@
+Battery_1
+Battery_2
+Battery_5
+Cans
+Bottle
+Potato
+White_Radish
+Carrot
+Tile
+Pebbles
+drug_box
+drug

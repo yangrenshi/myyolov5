@@ -1,0 +1,9 @@
+
+train: mydata/images  # 128 images 训练数据集
+val: mydata/images # 128 images  验证数据集
+
+# number of classes
+nc: 12
+
+# class names
+names: [ 'Battery_1', 'Battery_2', 'Battery_5', 'Cans', 'Bottle', 'Potato', 'White_Radish', 'Carrot', 'Tile', 'Pebbles' , 'drug' , 'drug_box' ]
